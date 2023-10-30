@@ -1,0 +1,36 @@
+.detail-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+  margin: 5px auto;
+  background-color: #0c3c4f;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.detail-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.detail-label {
+  font-weight: bold;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #f4f0f0;
+  letter-spacing: 1px;
+}
+
+.detail-value {
+  flex-grow: 1;
+  text-align: right;
+  font-size: 28px;
+  color: #eeff00;
+  text-shadow: 1px 1px 0px #fff;
+}
